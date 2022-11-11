@@ -10,7 +10,6 @@ while w == "Y" or w == "y":
 	command = input()
 	command = command.upper()
 	r = command.split(" ")
-	print(r)
 
 	if r[0] == "CREATE":
 		con = None
