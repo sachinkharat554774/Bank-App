@@ -1,3 +1,6 @@
+#run this file using command given below on terminal
+#python bankapp.py
+
 from sqlite3 import *
 
 w = input("Welcome to bank app.\nDo you want to create or update details y/n -> ")
