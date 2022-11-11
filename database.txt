@@ -1,0 +1,10 @@
+#run this command on terminal in which file is present to create a database file
+
+step 1
+sqlite3 bankapp.db
+
+step 2
+create table account
+(id text primary key,
+name text,
+balance int);
